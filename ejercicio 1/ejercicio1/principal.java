@@ -9,8 +9,10 @@ public class principal {
         System.out.println("Cual es la dimencion de la matriz");
         n=sc.nextInt();
         Objproducto[][] producto=new Objproducto[n][n];
-        producto= (Objproducto[][])m.Llenarmatriz(producto);
-        producto= (Objproducto[][])m.BuscarNombre(producto);
+        producto=( m.Llenarmatriz(producto));
         m.MostrarMatriz(producto);
+        producto=( m.BuscarNombre(producto));
+        
+        
     }
 }
